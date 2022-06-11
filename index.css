@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rgbColorInfo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(67, 67, 121);
+    font-size: 0.8rem;
+
+}
+
+.div-submit{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 100px;
+}
+
+.submit{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(67, 67, 121);
+    justify-self: center;
+    align-self: center;
+}
+
+.submit:hover{
+
+    background-color: rgb(67, 67, 121);
+    border-width: 3px;
+    /* border-color: white; */
+    color: white;
+    font-weight: 500;
+    
+
+}
+/* 
+#color-list{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+} */
+
+#color-list li{
+    display: grid;
+    grid-template-columns: 2fr 40px 40px;
+    text-align: center;
+    padding-left: 2px;
+    height: 30px;
+    width: 500px;
+    border-style: solid;
+    list-style: none;
+    margin-top: 1px;
+
+}
+
+
+
+.delete,
+.apply{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(0,0,0, 0.3);
+
+    font-weight: 500;
+}
+
+
+.delete:hover {
+    background-color: #f44336;
+    color: white;
+    }
+
+.apply:hover {
+    background-color: white;
+    color: black;
+
+    }
+
+
+
+    #color-list li:hover{
+        background-color: rgb(230, 193, 228)!important;
+    }
